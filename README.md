@@ -47,7 +47,7 @@ pip install google-adk google-genai
 ### 4. Set up your API key
 - Go to: https://makersuite.google.com/app/apikey
 - Generate a key
-- Create a .env file in the root directory:
+- Create a LOCAL .env file and save in it your API key as follows:
 ```bash
 GOOGLE_API_KEY="your-api-key-here"
 ```
