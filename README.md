@@ -13,7 +13,8 @@ This is a demo project built with Google's **Agent Development Kit (ADK)**. The 
 ├── .env.example
 ├── .gitignore
 ├── README.md
-└── requirements.txt </pre>
+└── requirements.txt
+└── test_run.py </pre>
 
 Files content:
 
