@@ -23,6 +23,7 @@ Files content:
 - movie_finder_agent/__init__.py -> Imports agent module
 - README.md -> Instructions & usage
 - requirements.txt -> List of dependencies
+- text_run.py -> Testing file without UI
   
 ---
 
