@@ -6,15 +6,23 @@ This is a demo project built with Google's **Agent Development Kit (ADK)**. The 
 
 ## 📦 Project Structure
 
-adk-agent-demo/
+<pre> adk-agent-demo/
 ├── movie_finder_agent/
 │ ├── init.py
 │ └── agent.py
 ├── .env.example
 ├── .gitignore
 ├── README.md
-└── requirements.txt
+└── requirements.txt </pre>
 
+Files content:
+
+- .env -> API keys
+- movie_finder_agent/agent.py -> Tools, Agent definitions, Runner script
+- movie_finder_agent/__init__.py -> Imports agent module
+- README.md -> Instructions & usage
+- requirements.txt -> List of dependencies
+  
 ---
 
 ## 🚀 How to Run Locally
@@ -43,7 +51,7 @@ pip install google-adk google-genai
 ```bash
 GOOGLE_API_KEY="your-api-key-here"
 ```
-🛡️ Never commit .env — it's ignored by .gitignore.
+🛡️ Never commit .env file with your API key!
 
 ### 5. Run the agent
 To launch the local ADK interface:
@@ -59,9 +67,11 @@ python movie_finder_agent/agent.py
 The agent will invoke the find_movies() tool and return matching titles.
 
 📚 Learn More
-- Google ADK GitHub
-- Gemini API Studio
+- Google ADK GitHub: https://github.com/google/adk-python
+- Gemini API Studio: https://makersuite.google.com/
 
-🧑‍💻 Author
+---
+
+## 🧑‍💻 Author
 Created by Shirley Tauber-Sharon as an experiment with Google's ADK and agent tooling (www.linkedin.com/in/shirleytaubersharon).
 Based on tutorial by George (https://medium.com/@george_6906/prompt-engineering-with-googles-agent-development-kit-adk-d748ba212440)
